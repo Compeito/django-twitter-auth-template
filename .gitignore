@@ -1,0 +1,13 @@
+.idea
+.vscode
+
+__pycache__
+/venv/
+
+Thumbs.db
+*.exe
+*.bat
+*.wsgi
+
+db.sqlite3
+local_settings.py
