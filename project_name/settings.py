@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # social-auth-app-django
+    'social_django',
+    # original apps
     'core.apps.CoreConfig',
     'account.apps.AccountConfig'
 ]
