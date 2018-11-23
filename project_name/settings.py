@@ -30,7 +30,7 @@ if socket.gethostname() == local_settings.SERVER_HOSTNAME:
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = local_settings.ALLOWED_HOST
 
 
 # Application definition
